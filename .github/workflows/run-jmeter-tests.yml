@@ -1,7 +1,7 @@
 on: [push]
 jobs:
   Main:
-    runs-on: ubuntu-latest
+    runs-on: window-latest
     steps:
       - uses: actions/checkout@v3
       - name: Run JMeter Tests
