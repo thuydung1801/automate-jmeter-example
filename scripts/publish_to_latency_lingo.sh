@@ -7,9 +7,9 @@ curl -L https://github.com/latency-lingo/cli/releases/latest/download/latency-li
 
 # Invoke the CLI with our results file
 ./latency-lingo-cli publish \
-  --file $JTL_RESULT_FILE \
-  --api-key $b445cd28-9530-42fd-a806-650aab7288b3 \
-  --label 'Checkout Flow Jenkins' \
+  --file ./20240229_test_results.csv \
+  --api-key b445cd28-9530-42fd-a806-650aab7288b3 \
+  --label 'Checkout Flow' \
   --env development
 
 # Clean up
