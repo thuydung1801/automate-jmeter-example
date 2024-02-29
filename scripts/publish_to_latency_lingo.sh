@@ -1,7 +1,9 @@
 #!/bin/bash -e
 
 # This script is used to publish the test results to Latency Lingo.
-
+jmeter -n \
+  -t test-plan.jmx \
+  -l 20240229_test_results.csv
 # Install Latency Lingo
 curl -L https://github.com/latency-lingo/cli/releases/latest/download/latency-lingo-cli_darwin_amd64.tar.gz | tar -xz
 
