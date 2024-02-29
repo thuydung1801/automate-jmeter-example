@@ -14,5 +14,6 @@ curl -L https://github.com/latency-lingo/cli/releases/latest/download/latency-li
   --label 'Checkout Flow' \
   --env development
 
+
 # Clean up
 rm LICENSE README.md latency-lingo-cli
